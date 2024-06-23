@@ -1,1 +1,1 @@
-int printf(const char*,...);int main(){char*s="int printf(const char*,...);int main(){char*s=?;char c[]={'%','c',0};char d[]={'%','c','%','s','%','c',0};for(int i=0;i<184;i++){if(s[i]==63){printf(d,34,s,34);}else{printf(c,s[i]);}}}";char c[]={'%','c',0};char d[]={'%','c','%','s','%','c',0};for(int i=0;i<184;i++){if(s[i]==63){printf(d,34,s,34);}else{printf(c,s[i]);}}}
+int printf(const char*,...);int main(){char*s="int printf(const char*,...);int main(){char*s=%c%s%c;printf(s,34,s,34);}";printf(s,34,s,34);}
