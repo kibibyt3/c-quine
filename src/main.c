@@ -1,1 +1,1 @@
-int printf(char*,...);int main(){char*s="int printf(char*,...);int main(){char*s=%c%s%c;printf(s,34,s,34);}";printf(s,34,s,34);}
+int printf();int main(){char*s="int printf();int main(){char*s=%c%s%c;printf(s,34,s,34);}";printf(s,34,s,34);}
